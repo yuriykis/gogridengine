@@ -107,6 +107,11 @@ func (r ResourceList) NPLoadAverage() (float64, error) {
 	return r.getFloatValueFromList("np_load_avg")
 }
 
+//LoadAverageResource Load type cast as float 64
+func (r ResourceList) LoadAverageResource() (float64, error) {
+	return r.getFloatValueFromList("load_avg")
+}
+
 //NPLoadShort NP Load type cast as float 64
 func (r ResourceList) NPLoadShort() (float64, error) {
 	return r.getFloatValueFromList("np_load_short")
