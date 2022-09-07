@@ -3,8 +3,8 @@ package filters
 import (
 	"time"
 
-	"github.com/metrumresearchgroup/gogridengine"
 	log "github.com/sirupsen/logrus"
+	"github.com/yuriykis/gogridengine"
 )
 
 //NewBeforeSubmitTimeFilter returns only jobs whose submitted time occurs before the provided time.

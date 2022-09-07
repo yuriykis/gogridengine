@@ -3,7 +3,7 @@ package filters
 import (
 	"strings"
 
-	"github.com/metrumresearchgroup/gogridengine"
+	"github.com/yuriykis/gogridengine"
 )
 
 const (

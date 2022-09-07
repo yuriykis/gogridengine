@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/metrumresearchgroup/gogridengine"
 	"github.com/stretchr/testify/assert"
+	"github.com/yuriykis/gogridengine"
 )
 
 func TestNewUsernameFilter(t *testing.T) {
